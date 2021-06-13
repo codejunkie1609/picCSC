@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="tasveer">TasVeer</string>
+    <string name="welcome_">Welcome!</string>
+    <string name="set_your_di">Set Your Display Name</string>
+    <string name="what_is_you">What is your CSC Name</string>
+    <string name="next">Next</string>
+    <string name="where_are_y">
+
+Where are you from?
+</string>
+    <string name="your_state">
+
+Your State
+</string>
+    <string name="your_distri">
+
+Your District
+</string>
+</resources>

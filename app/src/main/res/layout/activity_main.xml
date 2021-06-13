@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="closeKeyboard"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome_"
+        android:layout_width="194dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="@font/saira_regular"
+        android:gravity="center_vertical"
+        android:text="@string/welcome_"
+        android:textAppearance="@style/welcome_" />
+
+    <TextView
+        android:id="@+id/set_your_di"
+        android:layout_width="149.83dp"
+        android:layout_height="22.47dp"
+
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/saira_regular"
+        android:gravity="center_vertical"
+        android:text="@string/set_your_di"
+        android:textAppearance="@style/set_your_di" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="52.44dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle_3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="#40000000"
+        android:shadowDy="7"
+        android:textAlignment="center"
+        tools:shadowDx="3"
+        tools:shadowDy="7" />
+
+    <TextView
+        android:id="@+id/what_is_you"
+        android:layout_width="155.07dp"
+        android:layout_height="22.47dp"
+
+        android:layout_marginLeft="125.21dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/saira_regular"
+        android:gravity="center_vertical"
+        android:text="@string/what_is_you"
+        android:textAppearance="@style/what_is_you" />
+
+    <EditText
+        android:id="@+id/CSCname"
+        android:layout_width="match_parent"
+        android:layout_height="52.44dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle_3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="#40000000"
+        android:shadowDy="7"
+        android:textAlignment="center"
+        tools:shadowDx="3"
+        tools:shadowDy="7" />
+
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="143dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="162dp"
+        android:background="@drawable/rectangle_2"
+        android:text="next" />
+
+</LinearLayout>

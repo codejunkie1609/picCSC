@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/where_are_y"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/saira_regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/where_are_y"
+        android:textAppearance="@style/where_are_y"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/your_state"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="159.41dp"
+        android:layout_marginTop="167dp"
+        android:gravity="center_vertical"
+        android:text="@string/your_state"
+        android:textAppearance="@style/your_state"
+        android:textSize="17sp" />
+
+    <Spinner
+        android:id="@+id/state"
+        android:layout_width="342dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/rectangle"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/your_distri"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="155.17dp"
+        android:layout_marginTop="323.6dp"
+        android:gravity="center_vertical"
+        android:text="@string/your_distri"
+        android:textAppearance="@style/your_distri"
+        android:textSize="17sp" />
+
+    <Spinner
+
+        android:id="@+id/dist"
+        android:layout_width="342dp"
+        android:layout_height="59dp"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/rectangle"
+        android:textAlignment="center"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/rectangle_2"
+        android:text="go" />
+
+
+</RelativeLayout>
